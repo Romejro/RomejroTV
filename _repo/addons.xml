@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.0.4" provider-name="RomejroTV">
+<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.0.5" provider-name="RomejroTV">
 	<requires>
 		<import addon="xbmc.addon" version="17.9.910"/>
 		<import addon="script.module.requests" />
@@ -35,9 +35,9 @@
 <addon id="repository.Romejrorepo" name="RomejroRepo" version="2.0.2" provider-name="Romejro">
 	<extension point="xbmc.addon.repository" name="RomejroRepo">
 		<dir minversion="19.0.0">
-			<info compressed="false">https://raw.github.com/Romejro/RomejroTV/main/_repoaddons.xml</info>
-			<checksum>https://raw.github.com/Romejro/RomejroTV/main/_repoaddons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/Romejro/RomejroTV/main/_repo</datadir>
+			<info compressed="false">https://raw.github.com/Romejro/RomejroTV/main/_repo/addons.xml</info>
+			<checksum>https://raw.github.com/Romejro/RomejroTV/main/_repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/Romejro/RomejroTV/main/_repo/</datadir>
 			<hashes>false</hashes>
 		</dir>
 	</extension>
