@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.0.7" provider-name="RomejroTV">
+<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.0.8" provider-name="RomejroTV">
 	<requires>
 		<import addon="xbmc.addon" version="17.9.910"/>
 		<import addon="script.module.requests" />
@@ -9,7 +9,6 @@
 		<import addon="inputstream.adaptive"/>
 		<import addon="script.module.inputstreamhelper"/>
 		<import addon="script.module.kodi-six"/>
-		<import addon="script.module.beautifulsoup4" wersja="4.9.3+matrix.1"/>
 
 
 
