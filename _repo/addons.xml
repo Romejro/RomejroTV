@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.0.8" provider-name="RomejroTV">
+<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.0.9" provider-name="RomejroTV">
 	<requires>
 		<import addon="xbmc.addon" version="17.9.910"/>
 		<import addon="script.module.requests" />
@@ -31,19 +31,20 @@
 	</extension>
 </addon>
 
-<addon id="repository.Romejrorepo" name="RomejroRepo" version="2.0.2" provider-name="Romejro">
-	<extension point="xbmc.addon.repository" name="RomejroRepo">
-		<dir minversion="19.0.0">
-			<info compressed="false">https://raw.github.com/Romejro/RomejroTV/master/_repo/addons.xml</info>
-			<checksum>https://raw.github.com/Romejro/RomejroTV/master/_repo/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/Romejro/RomejroTV/master/_repo/</datadir>
-			<hashes>false</hashes>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>RomejroTv Movies and series</summary>
-		<description>Najnowsze Filmy i seriale</description>
-		<platform>all</platform>
-	</extension>
+    <addon id="repository.Romejrorepo" name="RomejroRepo" version="2.0.2" provider-name="Romejro">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="RomejroRepo">
+            <info compressed="false">https://raw.github.com/Romejro/RomejroTV/_repo/addons.xml</info>
+            <checksum>https://raw.github.com/Romejro/RomejroTV/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/Romejro/RomejroTV/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>RomejroTv Movies and series</summary>
+            <description>Najnowsze Filmy i seriale</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 </addons>
