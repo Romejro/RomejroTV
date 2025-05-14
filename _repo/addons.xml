@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.0.9" provider-name="RomejroTV">
+<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.1.0" provider-name="RomejroTV">
 	<requires>
 		<import addon="xbmc.addon" version="17.9.910"/>
 		<import addon="script.module.requests" />
