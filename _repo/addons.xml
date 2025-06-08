@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.2.3" provider-name="RomejroTV">
+<addon id="plugin.video.v2romejrotv" name="Romejro TV" version="2.2.4" provider-name="RomejroTV">
 	<requires>
 		<import addon="xbmc.addon" version="17.9.910"/>
 		<import addon="script.module.requests" />
@@ -18,7 +18,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<description>Romejro TV</description>
-		<disclaimer>https://romejrotv.blu24.pl</disclaimer>
+		<disclaimer>Movies And Series</disclaimer>
 		<summary>Romejro TV</summary>
 		<language>pl</language>
 		<platform>all</platform>
